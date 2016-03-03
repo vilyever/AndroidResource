@@ -1,6 +1,7 @@
 package com.vilyever.resource;
 
 import android.content.res.ColorStateList;
+import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.ArrayRes;
 import android.support.annotation.BoolRes;
@@ -10,6 +11,7 @@ import android.support.annotation.DrawableRes;
 import android.support.annotation.IntegerRes;
 import android.support.annotation.StringRes;
 import android.support.v4.content.ContextCompat;
+import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 
 import com.vilyever.contextholder.VDContextHolder;
@@ -84,6 +86,14 @@ public class VDResource {
 
     public static int getDimensionPixelSize(@DimenRes int resID) {
         return VDContextHolder.getContext().getResources().getDimensionPixelSize(resID);
+    }
+
+    public static TypedArray obtainTypedArray(@ArrayRes int resID) {
+        return VDContextHolder.getContext().getResources().obtainTypedArray(resID);
+    }
+
+    public static TypedArray obtainAttributes(AttributeSet set, int[] attrs) {
+        return VDContextHolder.getContext().getResources().obtainAttributes(set, attrs);
     }
 
     public static DisplayMetrics getDisplayMetrics() {

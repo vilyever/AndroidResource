@@ -1,6 +1,7 @@
 package com.vilyever.resource;
 
 import android.content.res.ColorStateList;
+import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.ArrayRes;
@@ -32,6 +33,10 @@ public class VDResource {
     
     
     /* Public Methods */
+    public static Resources getResources() {
+        return VDContextHolder.getContext().getResources();
+    }
+
     public static int getColor(@ColorRes int resID) {
         return ContextCompat.getColor(VDContextHolder.getContext(), resID);
     }

@@ -25,7 +25,8 @@ dependencies {
 ## Usage
 ```java
 
-VDResource.getString(R.string.app_name)
+Resources res = VDResource.getResources();
+VDResource.getString(R.string.app_name);
 
 ```
 

@@ -18,15 +18,15 @@ Step 2. Add the dependency in the form
 
 ```gradle
 dependencies {
-  compile 'com.github.vilyever:AndroidResource:1.0.2'
+  compile 'com.github.vilyever:AndroidResource:1.0.3'
 }
 ```
 
 ## Usage
 ```java
 
-Resources res = VDResource.getResources();
-VDResource.getString(R.string.app_name);
+Resources res = Resource.getResources();
+Resource.getString(R.string.app_name);
 
 ```
 

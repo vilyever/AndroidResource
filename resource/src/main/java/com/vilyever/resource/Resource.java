@@ -15,105 +15,105 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 
-import com.vilyever.contextholder.VDContextHolder;
+import com.vilyever.contextholder.ContextHolder;
 
 import java.io.File;
 
 /**
- * VDResource
+ * Resource
  * AndroidResource <com.vilyever.resource>
  * Created by vilyever on 2016/2/24.
  * Feature:
  */
-public class VDResource {
-    final VDResource self = this;
+public class Resource {
+    final Resource self = this;
 
-    
+
     /* Constructors */
-    
-    
+
+
     /* Public Methods */
     public static Resources getResources() {
-        return VDContextHolder.getContext().getResources();
+        return ContextHolder.getContext().getResources();
     }
 
     public static int getColor(@ColorRes int resID) {
-        return ContextCompat.getColor(VDContextHolder.getContext(), resID);
+        return ContextCompat.getColor(ContextHolder.getContext(), resID);
     }
 
     public static ColorStateList getColorStateList(@ColorRes int resID) {
-        return ContextCompat.getColorStateList(VDContextHolder.getContext(), resID);
+        return ContextCompat.getColorStateList(ContextHolder.getContext(), resID);
     }
 
     public static Drawable getDrawable(@DrawableRes int resID) {
-        return ContextCompat.getDrawable(VDContextHolder.getContext(), resID);
+        return ContextCompat.getDrawable(ContextHolder.getContext(), resID);
     }
 
     public static File[] getExternalCacheDirs() {
-        return ContextCompat.getExternalCacheDirs(VDContextHolder.getContext());
+        return ContextCompat.getExternalCacheDirs(ContextHolder.getContext());
     }
 
     public static File[] getExternalFilesDirs(String type) {
-        return ContextCompat.getExternalFilesDirs(VDContextHolder.getContext(), type);
+        return ContextCompat.getExternalFilesDirs(ContextHolder.getContext(), type);
     }
 
     public static File[] getObbDirs() {
-        return ContextCompat.getObbDirs(VDContextHolder.getContext());
+        return ContextCompat.getObbDirs(ContextHolder.getContext());
     }
 
     public static String getString(@StringRes int resID) {
-        return VDContextHolder.getContext().getResources().getString(resID);
+        return ContextHolder.getContext().getResources().getString(resID);
     }
 
     public static String getString(@StringRes int resID, Object... formatArgs) {
-        return VDContextHolder.getContext().getResources().getString(resID, formatArgs);
+        return ContextHolder.getContext().getResources().getString(resID, formatArgs);
     }
 
     public static String[] getStringArray(@ArrayRes int resID) {
-        return VDContextHolder.getContext().getResources().getStringArray(resID);
+        return ContextHolder.getContext().getResources().getStringArray(resID);
     }
 
     public static int getInteger(@IntegerRes int resID) {
-        return VDContextHolder.getContext().getResources().getInteger(resID);
+        return ContextHolder.getContext().getResources().getInteger(resID);
     }
 
     public static int[] getIntArray(@ArrayRes int resID) {
-        return VDContextHolder.getContext().getResources().getIntArray(resID);
+        return ContextHolder.getContext().getResources().getIntArray(resID);
     }
 
     public static boolean getBoolean(@BoolRes int resID) {
-        return VDContextHolder.getContext().getResources().getBoolean(resID);
+        return ContextHolder.getContext().getResources().getBoolean(resID);
     }
 
     public static float getDimension(@DimenRes int resID) {
-        return VDContextHolder.getContext().getResources().getDimension(resID);
+        return ContextHolder.getContext().getResources().getDimension(resID);
     }
 
     public static int getDimensionPixelSize(@DimenRes int resID) {
-        return VDContextHolder.getContext().getResources().getDimensionPixelSize(resID);
+        return ContextHolder.getContext().getResources().getDimensionPixelSize(resID);
     }
 
     public static TypedArray obtainTypedArray(@ArrayRes int resID) {
-        return VDContextHolder.getContext().getResources().obtainTypedArray(resID);
+        return ContextHolder.getContext().getResources().obtainTypedArray(resID);
     }
 
     public static TypedArray obtainAttributes(AttributeSet set, int[] attrs) {
-        return VDContextHolder.getContext().getResources().obtainAttributes(set, attrs);
+        return ContextHolder.getContext().getResources().obtainAttributes(set, attrs);
     }
 
     public static DisplayMetrics getDisplayMetrics() {
-        return VDContextHolder.getContext().getResources().getDisplayMetrics();
+        return ContextHolder.getContext().getResources().getDisplayMetrics();
     }
 
     /* Properties */
-    
-    
+
+
     /* Overrides */
-     
-     
+
+
     /* Delegates */
-     
-     
+
+
     /* Private Methods */
-    
+
 }

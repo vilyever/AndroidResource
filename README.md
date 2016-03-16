@@ -18,7 +18,7 @@ Step 2. Add the dependency in the form
 
 ```gradle
 dependencies {
-  compile 'com.github.vilyever:AndroidResource:1.0.3'
+  compile 'com.github.vilyever:AndroidResource:1.1.0'
 }
 ```
 

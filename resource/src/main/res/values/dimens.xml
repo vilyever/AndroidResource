@@ -1,6 +1,12 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="commonTitleSize">14sp</dimen>
-    <dimen name="commonMargin">8dp</dimen>
-    <dimen name="commonPadding">8dp</dimen>
+    <dimen name="presetTitleSize">14sp</dimen>
+    <dimen name="presetMargin">8dp</dimen>
+    <dimen name="presetHalfMargin">4dp</dimen>
+    <dimen name="presetDoubleMargin">16dp</dimen>
+    <dimen name="presetPadding">8dp</dimen>
+    <dimen name="presetHalfPadding">4dp</dimen>
+    <dimen name="presetDoublePadding">16dp</dimen>
+    <dimen name="presetBarHeight">44dp</dimen>
+    <dimen name="presetButtonHeight">30dp</dimen>
 </resources>

@@ -343,6 +343,668 @@
         <item>@color/Black</item>
     </integer-array>
 
+    <!-- Material Red -->
+    <color name="MaterialRed">#F44336</color>
+    <color name="MaterialRed50">#FFEBEE</color>
+    <color name="MaterialRed100">#FFCDD2</color>
+    <color name="MaterialRed200">#EF9A9A</color>
+    <color name="MaterialRed300">#E57373</color>
+    <color name="MaterialRed400">#EF5350</color>
+    <color name="MaterialRed500">#F44336</color>
+    <color name="MaterialRed600">#E53935</color>
+    <color name="MaterialRed700">#D32F2F</color>
+    <color name="MaterialRed800">#C62828</color>
+    <color name="MaterialRed900">#B71C1C</color>
+    <color name="MaterialRedA100">#FF8A80</color>
+    <color name="MaterialRedA200">#FF5252</color>
+    <color name="MaterialRedA400">#FF1744</color>
+    <color name="MaterialRedA700">#D50000</color>
+
+    <integer-array name="MaterialRedColors">
+        <item>@color/MaterialRed</item>
+        <item>@color/MaterialRed50</item>
+        <item>@color/MaterialRed100</item>
+        <item>@color/MaterialRed200</item>
+        <item>@color/MaterialRed300</item>
+        <item>@color/MaterialRed400</item>
+        <item>@color/MaterialRed500</item>
+        <item>@color/MaterialRed600</item>
+        <item>@color/MaterialRed700</item>
+        <item>@color/MaterialRed800</item>
+        <item>@color/MaterialRed900</item>
+        <item>@color/MaterialRedA100</item>
+        <item>@color/MaterialRedA200</item>
+        <item>@color/MaterialRedA400</item>
+        <item>@color/MaterialRedA700</item>
+    </integer-array>
+
+
+    <!-- Material Pink -->
+    <color name="MaterialPink">#E91E63</color>
+    <color name="MaterialPink50">#FCE4EC</color>
+    <color name="MaterialPink100">#F8BBD0</color>
+    <color name="MaterialPink200">#F48FB1</color>
+    <color name="MaterialPink300">#F06292</color>
+    <color name="MaterialPink400">#EC407A</color>
+    <color name="MaterialPink500">#E91E63</color>
+    <color name="MaterialPink600">#D81B60</color>
+    <color name="MaterialPink700">#C2185B</color>
+    <color name="MaterialPink800">#AD1457</color>
+    <color name="MaterialPink900">#880E4F</color>
+    <color name="MaterialPinkA100">#FF80AB</color>
+    <color name="MaterialPinkA200">#FF4081</color>
+    <color name="MaterialPinkA400">#F50057</color>
+    <color name="MaterialPinkA700">#C51162</color>
+
+    <integer-array name="MaterialPinkColors">
+        <item>@color/MaterialPink</item>
+        <item>@color/MaterialPink50</item>
+        <item>@color/MaterialPink100</item>
+        <item>@color/MaterialPink200</item>
+        <item>@color/MaterialPink300</item>
+        <item>@color/MaterialPink400</item>
+        <item>@color/MaterialPink500</item>
+        <item>@color/MaterialPink600</item>
+        <item>@color/MaterialPink700</item>
+        <item>@color/MaterialPink800</item>
+        <item>@color/MaterialPink900</item>
+        <item>@color/MaterialPinkA100</item>
+        <item>@color/MaterialPinkA200</item>
+        <item>@color/MaterialPinkA400</item>
+        <item>@color/MaterialPinkA700</item>
+    </integer-array>
+
+
+    <!-- Material Purple -->
+    <color name="MaterialPurple">#9C27B0</color>
+    <color name="MaterialPurple50">#F3E5F5</color>
+    <color name="MaterialPurple100">#E1BEE7</color>
+    <color name="MaterialPurple200">#CE93D8</color>
+    <color name="MaterialPurple300">#BA68C8</color>
+    <color name="MaterialPurple400">#AB47BC</color>
+    <color name="MaterialPurple500">#9C27B0</color>
+    <color name="MaterialPurple600">#8E24AA</color>
+    <color name="MaterialPurple700">#7B1FA2</color>
+    <color name="MaterialPurple800">#6A1B9A</color>
+    <color name="MaterialPurple900">#4A148C</color>
+    <color name="MaterialPurpleA100">#EA80FC</color>
+    <color name="MaterialPurpleA200">#E040FB</color>
+    <color name="MaterialPurpleA400">#D500F9</color>
+    <color name="MaterialPurpleA700">#AA00FF</color>
+
+    <integer-array name="MaterialPurpleColors">
+        <item>@color/MaterialPurple</item>
+        <item>@color/MaterialPurple50</item>
+        <item>@color/MaterialPurple100</item>
+        <item>@color/MaterialPurple200</item>
+        <item>@color/MaterialPurple300</item>
+        <item>@color/MaterialPurple400</item>
+        <item>@color/MaterialPurple500</item>
+        <item>@color/MaterialPurple600</item>
+        <item>@color/MaterialPurple700</item>
+        <item>@color/MaterialPurple800</item>
+        <item>@color/MaterialPurple900</item>
+        <item>@color/MaterialPurpleA100</item>
+        <item>@color/MaterialPurpleA200</item>
+        <item>@color/MaterialPurpleA400</item>
+        <item>@color/MaterialPurpleA700</item>
+    </integer-array>
+
+
+    <!-- Material Deep Purple -->
+    <color name="MaterialDeepPurple">#673AB7</color>
+    <color name="MaterialDeepPurple50">#EDE7F6</color>
+    <color name="MaterialDeepPurple100">#D1C4E9</color>
+    <color name="MaterialDeepPurple200">#B39DDB</color>
+    <color name="MaterialDeepPurple300">#9575CD</color>
+    <color name="MaterialDeepPurple400">#7E57C2</color>
+    <color name="MaterialDeepPurple500">#673AB7</color>
+    <color name="MaterialDeepPurple600">#5E35B1</color>
+    <color name="MaterialDeepPurple700">#512DA8</color>
+    <color name="MaterialDeepPurple800">#4527A0</color>
+    <color name="MaterialDeepPurple900">#311B92</color>
+    <color name="MaterialDeepPurpleA100">#B388FF</color>
+    <color name="MaterialDeepPurpleA200">#7C4DFF</color>
+    <color name="MaterialDeepPurpleA400">#651FFF</color>
+    <color name="MaterialDeepPurpleA700">#6200EA</color>
+
+    <integer-array name="MaterialDeepPurpleColors">
+        <item>@color/MaterialDeepPurple</item>
+        <item>@color/MaterialDeepPurple50</item>
+        <item>@color/MaterialDeepPurple100</item>
+        <item>@color/MaterialDeepPurple200</item>
+        <item>@color/MaterialDeepPurple300</item>
+        <item>@color/MaterialDeepPurple400</item>
+        <item>@color/MaterialDeepPurple500</item>
+        <item>@color/MaterialDeepPurple600</item>
+        <item>@color/MaterialDeepPurple700</item>
+        <item>@color/MaterialDeepPurple800</item>
+        <item>@color/MaterialDeepPurple900</item>
+        <item>@color/MaterialDeepPurpleA100</item>
+        <item>@color/MaterialDeepPurpleA200</item>
+        <item>@color/MaterialDeepPurpleA400</item>
+        <item>@color/MaterialDeepPurpleA700</item>
+    </integer-array>
+
+
+    <!-- Material Indigo -->
+    <color name="MaterialIndigo">#3F51B5</color>
+    <color name="MaterialIndigo50">#E8EAF6</color>
+    <color name="MaterialIndigo100">#C5CAE9</color>
+    <color name="MaterialIndigo200">#9FA8DA</color>
+    <color name="MaterialIndigo300">#7986CB</color>
+    <color name="MaterialIndigo400">#5C6BC0</color>
+    <color name="MaterialIndigo500">#3F51B5</color>
+    <color name="MaterialIndigo600">#3949AB</color>
+    <color name="MaterialIndigo700">#303F9F</color>
+    <color name="MaterialIndigo800">#283593</color>
+    <color name="MaterialIndigo900">#1A237E</color>
+    <color name="MaterialIndigoA100">#8C9EFF</color>
+    <color name="MaterialIndigoA200">#536DFE</color>
+    <color name="MaterialIndigoA400">#3D5AFE</color>
+    <color name="MaterialIndigoA700">#304FFE</color>
+
+    <integer-array name="MaterialIndigoColors">
+        <item>@color/MaterialIndigo</item>
+        <item>@color/MaterialIndigo50</item>
+        <item>@color/MaterialIndigo100</item>
+        <item>@color/MaterialIndigo200</item>
+        <item>@color/MaterialIndigo300</item>
+        <item>@color/MaterialIndigo400</item>
+        <item>@color/MaterialIndigo500</item>
+        <item>@color/MaterialIndigo600</item>
+        <item>@color/MaterialIndigo700</item>
+        <item>@color/MaterialIndigo800</item>
+        <item>@color/MaterialIndigo900</item>
+        <item>@color/MaterialIndigoA100</item>
+        <item>@color/MaterialIndigoA200</item>
+        <item>@color/MaterialIndigoA400</item>
+        <item>@color/MaterialIndigoA700</item>
+    </integer-array>
+
+
+    <!-- Material Blue -->
+    <color name="MaterialBlue">#2196F3</color>
+    <color name="MaterialBlue50">#E3F2FD</color>
+    <color name="MaterialBlue100">#BBDEFB</color>
+    <color name="MaterialBlue200">#90CAF9</color>
+    <color name="MaterialBlue300">#64B5F6</color>
+    <color name="MaterialBlue400">#42A5F5</color>
+    <color name="MaterialBlue500">#2196F3</color>
+    <color name="MaterialBlue600">#1E88E5</color>
+    <color name="MaterialBlue700">#1976D2</color>
+    <color name="MaterialBlue800">#1565C0</color>
+    <color name="MaterialBlue900">#0D47A1</color>
+    <color name="MaterialBlueA100">#82B1FF</color>
+    <color name="MaterialBlueA200">#448AFF</color>
+    <color name="MaterialBlueA400">#2979FF</color>
+    <color name="MaterialBlueA700">#2962FF</color>
+
+    <integer-array name="MaterialBlueColors">
+        <item>@color/MaterialBlue</item>
+        <item>@color/MaterialBlue50</item>
+        <item>@color/MaterialBlue100</item>
+        <item>@color/MaterialBlue200</item>
+        <item>@color/MaterialBlue300</item>
+        <item>@color/MaterialBlue400</item>
+        <item>@color/MaterialBlue500</item>
+        <item>@color/MaterialBlue600</item>
+        <item>@color/MaterialBlue700</item>
+        <item>@color/MaterialBlue800</item>
+        <item>@color/MaterialBlue900</item>
+        <item>@color/MaterialBlueA100</item>
+        <item>@color/MaterialBlueA200</item>
+        <item>@color/MaterialBlueA400</item>
+        <item>@color/MaterialBlueA700</item>
+    </integer-array>
+
+
+    <!-- Material Light Blue -->
+    <color name="MaterialLightBlue">#03A9F4</color>
+    <color name="MaterialLightBlue50">#E1F5FE</color>
+    <color name="MaterialLightBlue100">#B3E5FC</color>
+    <color name="MaterialLightBlue200">#81D4FA</color>
+    <color name="MaterialLightBlue300">#4FC3F7</color>
+    <color name="MaterialLightBlue400">#29B6F6</color>
+    <color name="MaterialLightBlue500">#03A9F4</color>
+    <color name="MaterialLightBlue600">#039BE5</color>
+    <color name="MaterialLightBlue700">#0288D1</color>
+    <color name="MaterialLightBlue800">#0277BD</color>
+    <color name="MaterialLightBlue900">#01579B</color>
+    <color name="MaterialLightBlueA100">#80D8FF</color>
+    <color name="MaterialLightBlueA200">#40C4FF</color>
+    <color name="MaterialLightBlueA400">#00B0FF</color>
+    <color name="MaterialLightBlueA700">#0091EA</color>
+
+    <integer-array name="MaterialLightBlueColors">
+        <item>@color/MaterialLightBlue</item>
+        <item>@color/MaterialLightBlue50</item>
+        <item>@color/MaterialLightBlue100</item>
+        <item>@color/MaterialLightBlue200</item>
+        <item>@color/MaterialLightBlue300</item>
+        <item>@color/MaterialLightBlue400</item>
+        <item>@color/MaterialLightBlue500</item>
+        <item>@color/MaterialLightBlue600</item>
+        <item>@color/MaterialLightBlue700</item>
+        <item>@color/MaterialLightBlue800</item>
+        <item>@color/MaterialLightBlue900</item>
+        <item>@color/MaterialLightBlueA100</item>
+        <item>@color/MaterialLightBlueA200</item>
+        <item>@color/MaterialLightBlueA400</item>
+        <item>@color/MaterialLightBlueA700</item>
+    </integer-array>
+
+
+    <!-- Material Cyan -->
+    <color name="MaterialCyan">#00BCD4</color>
+    <color name="MaterialCyan50">#E0F7FA</color>
+    <color name="MaterialCyan100">#B2EBF2</color>
+    <color name="MaterialCyan200">#80DEEA</color>
+    <color name="MaterialCyan300">#4DD0E1</color>
+    <color name="MaterialCyan400">#26C6DA</color>
+    <color name="MaterialCyan500">#00BCD4</color>
+    <color name="MaterialCyan600">#00ACC1</color>
+    <color name="MaterialCyan700">#0097A7</color>
+    <color name="MaterialCyan800">#00838F</color>
+    <color name="MaterialCyan900">#006064</color>
+    <color name="MaterialCyanA100">#84FFFF</color>
+    <color name="MaterialCyanA200">#18FFFF</color>
+    <color name="MaterialCyanA400">#00E5FF</color>
+    <color name="MaterialCyanA700">#00B8D4</color>
+
+    <integer-array name="MaterialCyanColors">
+        <item>@color/MaterialCyan</item>
+        <item>@color/MaterialCyan50</item>
+        <item>@color/MaterialCyan100</item>
+        <item>@color/MaterialCyan200</item>
+        <item>@color/MaterialCyan300</item>
+        <item>@color/MaterialCyan400</item>
+        <item>@color/MaterialCyan500</item>
+        <item>@color/MaterialCyan600</item>
+        <item>@color/MaterialCyan700</item>
+        <item>@color/MaterialCyan800</item>
+        <item>@color/MaterialCyan900</item>
+        <item>@color/MaterialCyanA100</item>
+        <item>@color/MaterialCyanA200</item>
+        <item>@color/MaterialCyanA400</item>
+        <item>@color/MaterialCyanA700</item>
+    </integer-array>
+
+
+    <!-- Material Teal -->
+    <color name="MaterialTeal">#009688</color>
+    <color name="MaterialTeal50">#E0F2F1</color>
+    <color name="MaterialTeal100">#B2DFDB</color>
+    <color name="MaterialTeal200">#80CBC4</color>
+    <color name="MaterialTeal300">#4DB6AC</color>
+    <color name="MaterialTeal400">#26A69A</color>
+    <color name="MaterialTeal500">#009688</color>
+    <color name="MaterialTeal600">#00897B</color>
+    <color name="MaterialTeal700">#00796B</color>
+    <color name="MaterialTeal800">#00695C</color>
+    <color name="MaterialTeal900">#004D40</color>
+    <color name="MaterialTealA100">#A7FFEB</color>
+    <color name="MaterialTealA200">#64FFDA</color>
+    <color name="MaterialTealA400">#1DE9B6</color>
+    <color name="MaterialTealA700">#00BFA5</color>
+
+    <integer-array name="MaterialTealColors">
+        <item>@color/MaterialTeal</item>
+        <item>@color/MaterialTeal50</item>
+        <item>@color/MaterialTeal100</item>
+        <item>@color/MaterialTeal200</item>
+        <item>@color/MaterialTeal300</item>
+        <item>@color/MaterialTeal400</item>
+        <item>@color/MaterialTeal500</item>
+        <item>@color/MaterialTeal600</item>
+        <item>@color/MaterialTeal700</item>
+        <item>@color/MaterialTeal800</item>
+        <item>@color/MaterialTeal900</item>
+        <item>@color/MaterialTealA100</item>
+        <item>@color/MaterialTealA200</item>
+        <item>@color/MaterialTealA400</item>
+        <item>@color/MaterialTealA700</item>
+
+    </integer-array>
+
+
+    <!-- Material Green -->
+    <color name="MaterialGreen">#4CAF50</color>
+    <color name="MaterialGreen50">#E8F5E9</color>
+    <color name="MaterialGreen100">#C8E6C9</color>
+    <color name="MaterialGreen200">#A5D6A7</color>
+    <color name="MaterialGreen300">#81C784</color>
+    <color name="MaterialGreen400">#66BB6A</color>
+    <color name="MaterialGreen500">#4CAF50</color>
+    <color name="MaterialGreen600">#43A047</color>
+    <color name="MaterialGreen700">#388E3C</color>
+    <color name="MaterialGreen800">#2E7D32</color>
+    <color name="MaterialGreen900">#1B5E20</color>
+    <color name="MaterialGreenA100">#B9F6CA</color>
+    <color name="MaterialGreenA200">#69F0AE</color>
+    <color name="MaterialGreenA400">#00E676</color>
+    <color name="MaterialGreenA700">#00C853</color>
+
+    <integer-array name="MaterialGreenColors">
+        <item>@color/MaterialGreen</item>
+        <item>@color/MaterialGreen50</item>
+        <item>@color/MaterialGreen100</item>
+        <item>@color/MaterialGreen200</item>
+        <item>@color/MaterialGreen300</item>
+        <item>@color/MaterialGreen400</item>
+        <item>@color/MaterialGreen500</item>
+        <item>@color/MaterialGreen600</item>
+        <item>@color/MaterialGreen700</item>
+        <item>@color/MaterialGreen800</item>
+        <item>@color/MaterialGreen900</item>
+        <item>@color/MaterialGreenA100</item>
+        <item>@color/MaterialGreenA200</item>
+        <item>@color/MaterialGreenA400</item>
+        <item>@color/MaterialGreenA700</item>
+    </integer-array>
+
+
+    <!-- Material Light Green -->
+    <color name="MaterialLightGreen">#8BC34A</color>
+    <color name="MaterialLightGreen50">#F1F8E9</color>
+    <color name="MaterialLightGreen100">#DCEDC8</color>
+    <color name="MaterialLightGreen200">#C5E1A5</color>
+    <color name="MaterialLightGreen300">#AED581</color>
+    <color name="MaterialLightGreen400">#9CCC65</color>
+    <color name="MaterialLightGreen500">#8BC34A</color>
+    <color name="MaterialLightGreen600">#7CB342</color>
+    <color name="MaterialLightGreen700">#689F38</color>
+    <color name="MaterialLightGreen800">#558B2F</color>
+    <color name="MaterialLightGreen900">#33691E</color>
+    <color name="MaterialLightGreenA100">#CCFF90</color>
+    <color name="MaterialLightGreenA200">#B2FF59</color>
+    <color name="MaterialLightGreenA400">#76FF03</color>
+    <color name="MaterialLightGreenA700">#64DD17</color>
+
+    <integer-array name="MaterialLightGreenColors">
+        <item>@color/MaterialLightGreen</item>
+        <item>@color/MaterialLightGreen50</item>
+        <item>@color/MaterialLightGreen100</item>
+        <item>@color/MaterialLightGreen200</item>
+        <item>@color/MaterialLightGreen300</item>
+        <item>@color/MaterialLightGreen400</item>
+        <item>@color/MaterialLightGreen500</item>
+        <item>@color/MaterialLightGreen600</item>
+        <item>@color/MaterialLightGreen700</item>
+        <item>@color/MaterialLightGreen800</item>
+        <item>@color/MaterialLightGreen900</item>
+        <item>@color/MaterialLightGreenA100</item>
+        <item>@color/MaterialLightGreenA200</item>
+        <item>@color/MaterialLightGreenA400</item>
+        <item>@color/MaterialLightGreenA700</item>
+    </integer-array>
+
+
+    <!-- Material Lime -->
+    <color name="MaterialLime">#CDDC39</color>
+    <color name="MaterialLime50">#F9FBE7</color>
+    <color name="MaterialLime100">#F0F4C3</color>
+    <color name="MaterialLime200">#E6EE9C</color>
+    <color name="MaterialLime300">#DCE775</color>
+    <color name="MaterialLime400">#D4E157</color>
+    <color name="MaterialLime500">#CDDC39</color>
+    <color name="MaterialLime600">#C0CA33</color>
+    <color name="MaterialLime700">#AFB42B</color>
+    <color name="MaterialLime800">#9E9D24</color>
+    <color name="MaterialLime900">#827717</color>
+    <color name="MaterialLimeA100">#F4FF81</color>
+    <color name="MaterialLimeA200">#EEFF41</color>
+    <color name="MaterialLimeA400">#C6FF00</color>
+    <color name="MaterialLimeA700">#AEEA00</color>
+
+    <integer-array name="MaterialLimeColors">
+        <item>@color/MaterialLime</item>
+        <item>@color/MaterialLime50</item>
+        <item>@color/MaterialLime100</item>
+        <item>@color/MaterialLime200</item>
+        <item>@color/MaterialLime300</item>
+        <item>@color/MaterialLime400</item>
+        <item>@color/MaterialLime500</item>
+        <item>@color/MaterialLime600</item>
+        <item>@color/MaterialLime700</item>
+        <item>@color/MaterialLime800</item>
+        <item>@color/MaterialLime900</item>
+        <item>@color/MaterialLimeA100</item>
+        <item>@color/MaterialLimeA200</item>
+        <item>@color/MaterialLimeA400</item>
+        <item>@color/MaterialLimeA700</item>
+    </integer-array>
+
+
+    <!-- Material Yellow -->
+    <color name="MaterialYellow">#FFEB3B</color>
+    <color name="MaterialYellow50">#FFFDE7</color>
+    <color name="MaterialYellow100">#FFF9C4</color>
+    <color name="MaterialYellow200">#FFF59D</color>
+    <color name="MaterialYellow300">#FFF176</color>
+    <color name="MaterialYellow400">#FFEE58</color>
+    <color name="MaterialYellow500">#FFEB3B</color>
+    <color name="MaterialYellow600">#FDD835</color>
+    <color name="MaterialYellow700">#FBC02D</color>
+    <color name="MaterialYellow800">#F9A825</color>
+    <color name="MaterialYellow900">#F57F17</color>
+    <color name="MaterialYellowA100">#FFFF8D</color>
+    <color name="MaterialYellowA200">#FFFF00</color>
+    <color name="MaterialYellowA400">#FFEA00</color>
+    <color name="MaterialYellowA700">#FFD600</color>
+
+    <integer-array name="MaterialYellowColors">
+        <item>@color/MaterialYellow</item>
+        <item>@color/MaterialYellow50</item>
+        <item>@color/MaterialYellow100</item>
+        <item>@color/MaterialYellow200</item>
+        <item>@color/MaterialYellow300</item>
+        <item>@color/MaterialYellow400</item>
+        <item>@color/MaterialYellow500</item>
+        <item>@color/MaterialYellow600</item>
+        <item>@color/MaterialYellow700</item>
+        <item>@color/MaterialYellow800</item>
+        <item>@color/MaterialYellow900</item>
+        <item>@color/MaterialYellowA100</item>
+        <item>@color/MaterialYellowA200</item>
+        <item>@color/MaterialYellowA400</item>
+        <item>@color/MaterialYellowA700</item>
+    </integer-array>
+
+
+    <!-- Material Amber -->
+    <color name="MaterialAmber">#FFC107</color>
+    <color name="MaterialAmber50">#FFF8E1</color>
+    <color name="MaterialAmber100">#FFECB3</color>
+    <color name="MaterialAmber200">#FFE082</color>
+    <color name="MaterialAmber300">#FFD54F</color>
+    <color name="MaterialAmber400">#FFCA28</color>
+    <color name="MaterialAmber500">#FFC107</color>
+    <color name="MaterialAmber600">#FFB300</color>
+    <color name="MaterialAmber700">#FFA000</color>
+    <color name="MaterialAmber800">#FF8F00</color>
+    <color name="MaterialAmber900">#FF6F00</color>
+    <color name="MaterialAmberA100">#FFE57F</color>
+    <color name="MaterialAmberA200">#FFD740</color>
+    <color name="MaterialAmberA400">#FFC400</color>
+    <color name="MaterialAmberA700">#FFAB00</color>
+
+    <integer-array name="MaterialAmberColors">
+        <item>@color/MaterialAmber</item>
+        <item>@color/MaterialAmber50</item>
+        <item>@color/MaterialAmber100</item>
+        <item>@color/MaterialAmber200</item>
+        <item>@color/MaterialAmber300</item>
+        <item>@color/MaterialAmber400</item>
+        <item>@color/MaterialAmber500</item>
+        <item>@color/MaterialAmber600</item>
+        <item>@color/MaterialAmber700</item>
+        <item>@color/MaterialAmber800</item>
+        <item>@color/MaterialAmber900</item>
+        <item>@color/MaterialAmberA100</item>
+        <item>@color/MaterialAmberA200</item>
+        <item>@color/MaterialAmberA400</item>
+        <item>@color/MaterialAmberA700</item>
+
+    </integer-array>
+
+
+    <!-- Material Orange -->
+    <color name="MaterialOrange">#FF9800</color>
+    <color name="MaterialOrange50">#FFF3E0</color>
+    <color name="MaterialOrange100">#FFE0B2</color>
+    <color name="MaterialOrange200">#FFCC80</color>
+    <color name="MaterialOrange300">#FFB74D</color>
+    <color name="MaterialOrange400">#FFA726</color>
+    <color name="MaterialOrange500">#FF9800</color>
+    <color name="MaterialOrange600">#FB8C00</color>
+    <color name="MaterialOrange700">#F57C00</color>
+    <color name="MaterialOrange800">#EF6C00</color>
+    <color name="MaterialOrange900">#E65100</color>
+    <color name="MaterialOrangeA100">#FFD180</color>
+    <color name="MaterialOrangeA200">#FFAB40</color>
+    <color name="MaterialOrangeA400">#FF9100</color>
+    <color name="MaterialOrangeA700">#FF6D00</color>
+
+    <integer-array name="MaterialOrangeColors">
+        <item>@color/MaterialOrange</item>
+        <item>@color/MaterialOrange50</item>
+        <item>@color/MaterialOrange100</item>
+        <item>@color/MaterialOrange200</item>
+        <item>@color/MaterialOrange300</item>
+        <item>@color/MaterialOrange400</item>
+        <item>@color/MaterialOrange500</item>
+        <item>@color/MaterialOrange600</item>
+        <item>@color/MaterialOrange700</item>
+        <item>@color/MaterialOrange800</item>
+        <item>@color/MaterialOrange900</item>
+        <item>@color/MaterialOrangeA100</item>
+        <item>@color/MaterialOrangeA200</item>
+        <item>@color/MaterialOrangeA400</item>
+        <item>@color/MaterialOrangeA700</item>
+    </integer-array>
+
+
+    <!-- Material Deep Orange -->
+    <color name="MaterialDeepOrange">#FF5722</color>
+    <color name="MaterialDeepOrange50">#FBE9E7</color>
+    <color name="MaterialDeepOrange100">#FFCCBC</color>
+    <color name="MaterialDeepOrange200">#FFAB91</color>
+    <color name="MaterialDeepOrange300">#FF8A65</color>
+    <color name="MaterialDeepOrange400">#FF7043</color>
+    <color name="MaterialDeepOrange500">#FF5722</color>
+    <color name="MaterialDeepOrange600">#F4511E</color>
+    <color name="MaterialDeepOrange700">#E64A19</color>
+    <color name="MaterialDeepOrange800">#D84315</color>
+    <color name="MaterialDeepOrange900">#BF360C</color>
+    <color name="MaterialDeepOrangeA100">#FF9E80</color>
+    <color name="MaterialDeepOrangeA200">#FF6E40</color>
+    <color name="MaterialDeepOrangeA400">#FF3D00</color>
+    <color name="MaterialDeepOrangeA700">#DD2C00</color>
+
+    <integer-array name="MaterialDeepOrangeColors">
+        <item>@color/MaterialDeepOrange</item>
+        <item>@color/MaterialDeepOrange50</item>
+        <item>@color/MaterialDeepOrange100</item>
+        <item>@color/MaterialDeepOrange200</item>
+        <item>@color/MaterialDeepOrange300</item>
+        <item>@color/MaterialDeepOrange400</item>
+        <item>@color/MaterialDeepOrange500</item>
+        <item>@color/MaterialDeepOrange600</item>
+        <item>@color/MaterialDeepOrange700</item>
+        <item>@color/MaterialDeepOrange800</item>
+        <item>@color/MaterialDeepOrange900</item>
+        <item>@color/MaterialDeepOrangeA100</item>
+        <item>@color/MaterialDeepOrangeA200</item>
+        <item>@color/MaterialDeepOrangeA400</item>
+        <item>@color/MaterialDeepOrangeA700</item>
+    </integer-array>
+
+
+    <!-- Material Brown -->
+    <color name="MaterialBrown">#795548</color>
+    <color name="MaterialBrown50">#EFEBE9</color>
+    <color name="MaterialBrown100">#D7CCC8</color>
+    <color name="MaterialBrown200">#BCAAA4</color>
+    <color name="MaterialBrown300">#A1887F</color>
+    <color name="MaterialBrown400">#8D6E63</color>
+    <color name="MaterialBrown500">#795548</color>
+    <color name="MaterialBrown600">#6D4C41</color>
+    <color name="MaterialBrown700">#5D4037</color>
+    <color name="MaterialBrown800">#4E342E</color>
+    <color name="MaterialBrown900">#3E2723</color>
+
+    <integer-array name="MaterialBrownColors">
+        <item>@color/MaterialBrown</item>
+        <item>@color/MaterialBrown50</item>
+        <item>@color/MaterialBrown100</item>
+        <item>@color/MaterialBrown200</item>
+        <item>@color/MaterialBrown300</item>
+        <item>@color/MaterialBrown400</item>
+        <item>@color/MaterialBrown500</item>
+        <item>@color/MaterialBrown600</item>
+        <item>@color/MaterialBrown700</item>
+        <item>@color/MaterialBrown800</item>
+        <item>@color/MaterialBrown900</item>
+    </integer-array>
+
+
+    <!-- Material Grey -->
+    <color name="MaterialGrey">#9E9E9E</color>
+    <color name="MaterialGrey50">#FAFAFA</color>
+    <color name="MaterialGrey100">#F5F5F5</color>
+    <color name="MaterialGrey200">#EEEEEE</color>
+    <color name="MaterialGrey300">#E0E0E0</color>
+    <color name="MaterialGrey400">#BDBDBD</color>
+    <color name="MaterialGrey500">#9E9E9E</color>
+    <color name="MaterialGrey600">#757575</color>
+    <color name="MaterialGrey700">#616161</color>
+    <color name="MaterialGrey800">#424242</color>
+    <color name="MaterialGrey900">#212121</color>
+
+    <integer-array name="MaterialGreyColors">
+        <item>@color/MaterialGrey</item>
+        <item>@color/MaterialGrey50</item>
+        <item>@color/MaterialGrey100</item>
+        <item>@color/MaterialGrey200</item>
+        <item>@color/MaterialGrey300</item>
+        <item>@color/MaterialGrey400</item>
+        <item>@color/MaterialGrey500</item>
+        <item>@color/MaterialGrey600</item>
+        <item>@color/MaterialGrey700</item>
+        <item>@color/MaterialGrey800</item>
+        <item>@color/MaterialGrey900</item>
+    </integer-array>
+
+
+    <!-- Material Blue Grey -->
+    <color name="MaterialBlueGrey">#607D8B</color>
+    <color name="MaterialBlueGrey50">#ECEFF1</color>
+    <color name="MaterialBlueGrey100">#CFD8DC</color>
+    <color name="MaterialBlueGrey200">#B0BEC5</color>
+    <color name="MaterialBlueGrey300">#90A4AE</color>
+    <color name="MaterialBlueGrey400">#78909C</color>
+    <color name="MaterialBlueGrey500">#607D8B</color>
+    <color name="MaterialBlueGrey600">#546E7A</color>
+    <color name="MaterialBlueGrey700">#455A64</color>
+    <color name="MaterialBlueGrey800">#37474F</color>
+    <color name="MaterialBlueGrey900">#263238</color>
+
+    <integer-array name="MaterialBlueGreyColors">
+        <item>@color/MaterialBlueGrey</item>
+        <item>@color/MaterialBlueGrey50</item>
+        <item>@color/MaterialBlueGrey100</item>
+        <item>@color/MaterialBlueGrey200</item>
+        <item>@color/MaterialBlueGrey300</item>
+        <item>@color/MaterialBlueGrey400</item>
+        <item>@color/MaterialBlueGrey500</item>
+        <item>@color/MaterialBlueGrey600</item>
+        <item>@color/MaterialBlueGrey700</item>
+        <item>@color/MaterialBlueGrey800</item>
+        <item>@color/MaterialBlueGrey900</item>
+    </integer-array>
+
+
     <integer-array name="AllColors">
         <item>@color/Pink</item>
         <item>@color/LightPink</item>

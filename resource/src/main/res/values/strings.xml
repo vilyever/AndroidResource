@@ -1,3 +1,127 @@
 <resources>
     <string name="app_name">Resource</string>
+
+    <string name="presetAbout">About</string>
+    <string name="presetAccept">Accept</string>
+    <string name="presetAccess">Access</string>
+    <string name="presetAcquire">Acquire</string>
+    <string name="presetActive">Active</string>
+    <string name="presetAD">AD</string>
+    <string name="presetAdd">Add</string>
+    <string name="presetAddress">Address</string>
+    <string name="presetAfter">After</string>
+    <string name="presetAgain">Again</string>
+    <string name="presetAlign">Align</string>
+    <string name="presetAlive">Alive</string>
+    <string name="presetAll">All</string>
+    <string name="presetAndroid">Android</string>
+    <string name="presetApp">App</string>
+    <string name="presetApple">Apple</string>
+    <string name="presetArrow">Arrow</string>
+    <string name="presetAttach">Attach</string>
+    <string name="presetAttachment">Attachment</string>
+    <string name="presetAuto">Auto</string>
+    <string name="presetAverage">Average</string>
+    <string name="presetAxis">Axis</string>
+
+    <string name="presetBack">Back</string>
+    <string name="presetBackground">Background</string>
+    <string name="presetBBS">BBS</string>
+    <string name="presetBig">Big</string>
+    <string name="presetBlank">Blank</string>
+    <string name="presetBluetooth">Bluetooth</string>
+
+    <string name="presetCancel">Cancel</string>
+    <string name="presetCanvas">Canvas</string>
+    <string name="presetChange">Change</string>
+    <string name="presetChina">China</string>
+    <string name="presetChinese">Chinese</string>
+    <string name="presetClick">Click</string>
+    <string name="presetClient">Client</string>
+    <string name="presetClone">Clone</string>
+    <string name="presetClose">Close</string>
+    <string name="presetColor">Color</string>
+    <string name="presetConfirm">Confirm</string>
+    <string name="presetConnect">Connect</string>
+    <string name="presetCopy">Copy</string>
+
+    <string name="presetData">Data</string>
+    <string name="presetDelete">Delete</string>
+    <string name="presetDependency">Dependency</string>
+    <string name="presetDev">Dev</string>
+    <string name="presetDeveloper">Developer</string>
+    <string name="presetDifference">Difference</string>
+    <string name="presetDisconnect">Disconnect</string>
+    <string name="presetDocument">Document</string>
+    <string name="presetDoubleClick">LongClick</string>
+    <string name="presetDown">Down</string>
+
+    <string name="presetEast">East</string>
+    <string name="presetEasy">Easy</string>
+    <string name="presetEdit">Edit</string>
+    <string name="presetEmpty">Empty</string>
+    <string name="presetEnd">End</string>
+    <string name="presetEnglish">English</string>
+    <string name="presetEqual">Equal</string>
+    <string name="presetError">Error</string>
+    <string name="presetExit">Exit</string>
+
+    <string name="presetFast">Fast</string>
+    <string name="presetFetch">Fetch</string>
+    <string name="presetFlip">Flip</string>
+
+    <string name="presetHard">Hard</string>
+    <string name="presetHide">Hide</string>
+    <string name="presetHome">Home</string>
+
+    <string name="presetImage">Image</string>
+
+    <string name="presetLabel">Label</string>
+    <string name="presetLoading">Loading</string>
+    <string name="presetLock">Lock</string>
+    <string name="presetLockScreen">LockScreen</string>
+    <string name="presetLongClick">LongClick</string>
+
+    <string name="presetMessage">Message</string>
+    <string name="presetMargin">Margin</string>
+
+    <string name="presetNo">No</string>
+
+    <string name="presetOK">OK</string>
+    <string name="presetOpen">Open</string>
+
+    <string name="presetPadding">Padding</string>
+    <string name="presetPerform">Perform</string>
+    <string name="presetPhone">Phone</string>
+    <string name="presetPicture">Picture</string>
+    <string name="presetPrint">Print</string>
+
+    <string name="presetRecent">Recent</string>
+    <string name="presetRefreshing">Refreshing</string>
+
+    <string name="presetScroll">LongClick</string>
+    <string name="presetServer">Server</string>
+    <string name="presetShow">Show</string>
+    <string name="presetSMS">SMS</string>
+    <string name="presetStart">Start</string>
+    <string name="presetStop">Stop</string>
+    <string name="presetString">String</string>
+    <string name="presetSubtitle">Subtitle</string>
+
+    <string name="presetTap">LongClick</string>
+    <string name="presetTask">Task</string>
+    <string name="presetTemp">Temp</string>
+    <string name="presetTest">Test</string>
+    <string name="presetText">Text</string>
+    <string name="presetTitle">Title</string>
+
+    <string name="presetUse">Use</string>
+    <string name="presetUser">User</string>
+
+    <string name="presetView">View</string>
+
+    <string name="presetWindow">Window</string>
+
+    <string name="presetYes">Yes</string>
+
 </resources>

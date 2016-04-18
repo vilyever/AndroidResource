@@ -1,6 +1,7 @@
 package com.vilyever.resource;
 
 import android.content.res.ColorStateList;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
@@ -18,6 +19,7 @@ import android.util.DisplayMetrics;
 import com.vilyever.contextholder.ContextHolder;
 
 import java.io.File;
+import java.util.Locale;
 
 /**
  * Resource
@@ -62,47 +64,137 @@ public class Resource {
     }
 
     public static String getString(@StringRes int resID) {
-        return ContextHolder.getContext().getResources().getString(resID);
+        return getResources().getString(resID);
     }
 
     public static String getString(@StringRes int resID, Object... formatArgs) {
-        return ContextHolder.getContext().getResources().getString(resID, formatArgs);
+        return getResources().getString(resID, formatArgs);
     }
 
     public static String[] getStringArray(@ArrayRes int resID) {
-        return ContextHolder.getContext().getResources().getStringArray(resID);
+        return getResources().getStringArray(resID);
+    }
+
+    public static String getStringEnglish(@StringRes int resID) {
+        Resources resources = getResources();
+        Configuration conf = resources.getConfiguration();
+        Locale savedLocale = conf.locale;
+        conf.locale = Locale.ENGLISH;
+        resources.updateConfiguration(conf, null);
+
+        String string = resources.getString(resID);
+
+        conf.locale = savedLocale;
+        resources.updateConfiguration(conf, null);
+
+        return string;
+    }
+
+    public static String getStringEnglish(@StringRes int resID, Object... formatArgs) {
+        Resources resources = getResources();
+        Configuration conf = resources.getConfiguration();
+        Locale savedLocale = conf.locale;
+        conf.locale = Locale.ENGLISH;
+        resources.updateConfiguration(conf, null);
+
+        String string = resources.getString(resID, formatArgs);
+
+        conf.locale = savedLocale;
+        resources.updateConfiguration(conf, null);
+
+        return string;
+    }
+
+    public static String[] getStringArrayEnglish(@ArrayRes int resID) {
+        Resources resources = getResources();
+        Configuration conf = resources.getConfiguration();
+        Locale savedLocale = conf.locale;
+        conf.locale = Locale.ENGLISH;
+        resources.updateConfiguration(conf, null);
+
+        String[] strings = resources.getStringArray(resID);
+
+        conf.locale = savedLocale;
+        resources.updateConfiguration(conf, null);
+
+        return strings;
+    }
+
+    public static String getStringChinese(@StringRes int resID) {
+        Resources resources = getResources();
+        Configuration conf = resources.getConfiguration();
+        Locale savedLocale = conf.locale;
+        conf.locale = Locale.SIMPLIFIED_CHINESE;
+        resources.updateConfiguration(conf, null);
+
+        String string = resources.getString(resID);
+
+        conf.locale = savedLocale;
+        resources.updateConfiguration(conf, null);
+
+        return string;
+    }
+
+    public static String getStringChinese(@StringRes int resID, Object... formatArgs) {
+        Resources resources = getResources();
+        Configuration conf = resources.getConfiguration();
+        Locale savedLocale = conf.locale;
+        conf.locale = Locale.SIMPLIFIED_CHINESE;
+        resources.updateConfiguration(conf, null);
+
+        String string = resources.getString(resID, formatArgs);
+
+        conf.locale = savedLocale;
+        resources.updateConfiguration(conf, null);
+
+        return string;
+    }
+
+    public static String[] getStringArrayChinese(@ArrayRes int resID) {
+        Resources resources = getResources();
+        Configuration conf = resources.getConfiguration();
+        Locale savedLocale = conf.locale;
+        conf.locale = Locale.SIMPLIFIED_CHINESE;
+        resources.updateConfiguration(conf, null);
+
+        String[] strings = resources.getStringArray(resID);
+
+        conf.locale = savedLocale;
+        resources.updateConfiguration(conf, null);
+
+        return strings;
     }
 
     public static int getInteger(@IntegerRes int resID) {
-        return ContextHolder.getContext().getResources().getInteger(resID);
+        return getResources().getInteger(resID);
     }
 
     public static int[] getIntArray(@ArrayRes int resID) {
-        return ContextHolder.getContext().getResources().getIntArray(resID);
+        return getResources().getIntArray(resID);
     }
 
     public static boolean getBoolean(@BoolRes int resID) {
-        return ContextHolder.getContext().getResources().getBoolean(resID);
+        return getResources().getBoolean(resID);
     }
 
     public static float getDimension(@DimenRes int resID) {
-        return ContextHolder.getContext().getResources().getDimension(resID);
+        return getResources().getDimension(resID);
     }
 
     public static int getDimensionPixelSize(@DimenRes int resID) {
-        return ContextHolder.getContext().getResources().getDimensionPixelSize(resID);
+        return getResources().getDimensionPixelSize(resID);
     }
 
     public static TypedArray obtainTypedArray(@ArrayRes int resID) {
-        return ContextHolder.getContext().getResources().obtainTypedArray(resID);
+        return getResources().obtainTypedArray(resID);
     }
 
     public static TypedArray obtainAttributes(AttributeSet set, int[] attrs) {
-        return ContextHolder.getContext().getResources().obtainAttributes(set, attrs);
+        return getResources().obtainAttributes(set, attrs);
     }
 
     public static DisplayMetrics getDisplayMetrics() {
-        return ContextHolder.getContext().getResources().getDisplayMetrics();
+        return getResources().getDisplayMetrics();
     }
 
     /* Properties */

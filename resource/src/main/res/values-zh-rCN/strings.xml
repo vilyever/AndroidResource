@@ -1,0 +1,126 @@
+<resources>
+
+    <string name="presetAbout">关于</string>
+    <string name="presetAccept">接受</string>
+    <string name="presetAccess">访问</string>
+    <string name="presetAcquire">获取</string>
+    <string name="presetActive">激活</string>
+    <string name="presetAD">广告</string>
+    <string name="presetAdd">添加</string>
+    <string name="presetAddress">地址</string>
+    <string name="presetAfter">之后</string>
+    <string name="presetAgain">再次</string>
+    <string name="presetAlign">对齐</string>
+    <string name="presetAlive">存活</string>
+    <string name="presetAll">所有</string>
+    <string name="presetAndroid">安卓</string>
+    <string name="presetApp">应用</string>
+    <string name="presetApple">苹果</string>
+    <string name="presetArrow">箭头</string>
+    <string name="presetAttach">附加</string>
+    <string name="presetAttachment">附件</string>
+    <string name="presetAuto">自动</string>
+    <string name="presetAverage">平均</string>
+    <string name="presetAxis">坐标</string>
+
+    <string name="presetBack">返回</string>
+    <string name="presetBackground">背景</string>
+    <string name="presetBBS">论坛</string>
+    <string name="presetBig">大</string>
+    <string name="presetBlank">空白</string>
+    <string name="presetBluetooth">蓝牙</string>
+
+    <string name="presetCancel">取消</string>
+    <string name="presetCanvas">画布</string>
+    <string name="presetChange">改变</string>
+    <string name="presetChina">中国</string>
+    <string name="presetChinese">中文</string>
+    <string name="presetClick">点击</string>
+    <string name="presetClient">客户端</string>
+    <string name="presetClone">克隆</string>
+    <string name="presetClose">关闭</string>
+    <string name="presetColor">颜色</string>
+    <string name="presetConfirm">确认</string>
+    <string name="presetConnect">连接</string>
+    <string name="presetCopy">复制</string>
+
+    <string name="presetData">数据</string>
+    <string name="presetDelete">删除</string>
+    <string name="presetDependency">依赖</string>
+    <string name="presetDev">开发</string>
+    <string name="presetDeveloper">开发者</string>
+    <string name="presetDifference">区别</string>
+    <string name="presetDisconnect">断开连接</string>
+    <string name="presetDocument">文档</string>
+    <string name="presetDoubleClick">长按</string>
+    <string name="presetDown">下</string>
+
+    <string name="presetEast">东</string>
+    <string name="presetEasy">简单</string>
+    <string name="presetEdit">编辑</string>
+    <string name="presetEmpty">空</string>
+    <string name="presetEnd">结束</string>
+    <string name="presetEnglish">英文</string>
+    <string name="presetEqual">相等</string>
+    <string name="presetError">错误</string>
+    <string name="presetExit">退出</string>
+
+    <string name="presetFast">快</string>
+    <string name="presetFetch">获取</string>
+    <string name="presetFlip">翻转</string>
+
+    <string name="presetHard">难</string>
+    <string name="presetHide">隐藏</string>
+    <string name="presetHome">主页</string>
+
+    <string name="presetImage">图片</string>
+
+    <string name="presetLoading">正在加载</string>
+    <string name="presetLabel">标签</string>
+    <string name="presetLock">锁定</string>
+    <string name="presetLockScreen">锁屏</string>
+    <string name="presetLongClick">长按</string>
+
+    <string name="presetMessage">消息</string>
+    <string name="presetMargin">外边距</string>
+
+    <string name="presetNo">否</string>
+
+    <string name="presetOK">确定</string>
+    <string name="presetOpen">打开</string>
+
+    <string name="presetPerform">执行</string>
+    <string name="presetPhone">电话</string>
+    <string name="presetPadding">内边距</string>
+    <string name="presetPicture">图片</string>
+    <string name="presetPrint">打印</string>
+
+    <string name="presetRecent">最近</string>
+    <string name="presetRefreshing">正在刷新</string>
+
+    <string name="presetScroll">长按</string>
+    <string name="presetServer">服务器</string>
+    <string name="presetShow">显示</string>
+    <string name="presetSMS">短信</string>
+    <string name="presetStart">开始</string>
+    <string name="presetStop">停止</string>
+    <string name="presetString">字符串</string>
+    <string name="presetSubtitle">副标题</string>
+
+    <string name="presetTap">轻触</string>
+    <string name="presetTask">任务</string>
+    <string name="presetTitle">标题</string>
+    <string name="presetTest">测试</string>
+    <string name="presetTemp">临时</string>
+    <string name="presetText">文字</string>
+
+    <string name="presetUse">使用</string>
+    <string name="presetUser">用户</string>
+
+    <string name="presetView">视图</string>
+
+    <string name="presetWindow">窗口</string>
+
+    <string name="presetYes">是</string>
+
+</resources>
